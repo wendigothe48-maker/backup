@@ -37,7 +37,7 @@ local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 -- Config
 local API_URL = "https://sairo.online" 
-local SCRIPT_URL = "https://pastebin.com/raw/T30YbXsZ?hash=anIuD5V3VRgd6duoy968XCibUw9WGUaaCwDltsCfMiByrNYJHpzopWAqT1DvoQhF" 
+local SCRIPT_URL = "https://pastebin.com/raw/T30YbXsZ?hash=6LvYmhI3WBvNyEMNHYlWzuKhd0pcAostXaxXLsWcZ4wuvnFMY42XxSkiBylkw0gX" 
 local DEV_ID = _G.DevID or "admin" -- Uses global DevID if defined, else defaults to admin
 
 -- THEME: PREMIUM ORANGE-RED
