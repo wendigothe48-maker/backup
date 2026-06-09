@@ -1,4 +1,3 @@
-_G.DevID = "xdroid"
 --[[ 
     SAIRO KEY SYSTEM [PREMIUM v2]
     Features: Smooth Animations, Info Tab, Close Button, Fixed Layouts
@@ -38,7 +37,7 @@ local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 -- Config
 local API_URL = "https://sairo.online" 
-local SCRIPT_URL = "https://raw.githubusercontent.com/VearyTry/DeluxedHub/main/dandysworld.lua" 
+local SCRIPT_URL = "https://pastebin.com/raw/5Ru97REz?hash=UzMgKdRb3qheh4guL4wteWUOwGZKdGcdAJIArSTcn306PDD76A3FsKaSZ6Ni281m" 
 local DEV_ID = _G.DevID or "admin" -- Uses global DevID if defined, else defaults to admin
 
 -- THEME: PREMIUM ORANGE-RED
@@ -530,7 +529,7 @@ local function verify(inputKey)
             
             closeUI()
             
-            loadstring(game:HttpGet(SCRIPT_URL, true))()
+            loadstring(game:HttpGet(SCRIPT_URL))()
         elseif data.status == "invalid_hwid" then
              setStatus("HWID MISMATCH", Color3.fromRGB(255, 80, 80))
              Notify("Access Denied", "Key is linked to another device.", 5)
